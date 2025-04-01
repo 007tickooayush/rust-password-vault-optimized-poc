@@ -3,9 +3,12 @@ use crate::prompt::Prompt;
 mod vault;
 mod utils;
 mod prompt;
+mod vault_service;
 
 #[tokio::main]
 async fn main() {
+
+    //TODO: implement tokio server for serving the Credentials from the vault
 
     // for TESTING the implementation of the prompt
     // loop {
